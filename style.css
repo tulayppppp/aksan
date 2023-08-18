@@ -1,0 +1,83 @@
+style.css
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.menuColor{
+  color: #990033;
+}
+
+
+.heroImg{
+  width: 100%;
+  background: linear-gradient(rgba(5, 32, 103, 0.5),rgba(6, 36, 113, 0.5)) ,  url("img/hero.jpg");
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.lang ul li{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.navbar-nav li a{
+  color: white;
+}
+
+.leftNav ul li{
+  list-style: none;
+  cursor: pointer;
+  margin-top: .5rem
+  rgb(rgb(230, 42, 42))
+  Font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftNav ul li:hover{
+  color: #990033;
+}
+
+
+.search input,select{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 1.5rem;
+}
+
+.searchBtn{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: .37s;
+}
+
+.searchBtn:hover{
+  background-color: black;
+  color: white;
+}
+
+.alfabeSiralama a{
+  color: black;
+  text-decoration: none;
+}
+
+.teamCard{
+  text-align: center;
+}
+
+.teamCard img{
+  transition: .37s;
+  filter: grayscale(100%);
+}
+
+.teamCard:hover img{
+  filter: grayscale(0);
+  transform: scale(1.03);
+}
